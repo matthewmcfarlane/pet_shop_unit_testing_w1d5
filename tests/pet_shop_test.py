@@ -224,3 +224,5 @@ class TestPetShop(unittest.TestCase):
         self.assertEqual(0, get_pets_sold(self.cc_pet_shop))
         self.assertEqual(50, get_customer_cash(customer))
         self.assertEqual(1000, get_total_cash(self.cc_pet_shop))
+
+#

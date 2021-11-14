@@ -96,3 +96,4 @@ def sell_pet_to_customer(pet_shop, pet, customer):
         remove_pet_by_name(pet_shop, pet_name)
         sold = 1
         increase_pets_sold(pet_shop, sold)
+        
